@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border box ;
+    list-style: none;
+    text-decoration:none;
+    
+    
+
+}
+
+body{
+   background-color: blanchedalmond;
+}
+
+.pagina_dos_borde{
+    width: 100%;
+    height: 40px;
+    background-color: tomato;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    
+}
+nav{
+    width:100%;
+    height: 15vh;
+    background-color: blanchedalmond;
+    position: fixed;
+    z-index: 1;
+}
+.brand{
+    margin-left:5%;
+    line-height: 15vh;
+}
+.brand a{
+    color:black;
+    font-size: 35px;
+}
+
+ul{
+    float: right;
+    margin-right: 5%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 15vh;
+}
+div ul li{
+    position: relative;
+    bottom: 10px;
+    display: inline-block;
+    line-height: 15vh;
+}
+nav ul li a{
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+.pagina_dos_bordebajo{
+    background-color: white;
+    position: relative;
+    height: 30px;
+    top: 90px;
+}
+
+.pagina_dos_etiquetauno{
+    width: 60px;
+    width: 30px;
+    
+}
+.pagina_tres_imagenuno{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    top: 143px;
+    opacity: 0;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .7s ease-in-out all;
+}
+.pagina_tres_imagenuno.visible{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.pagina_tres_cajados{
+    width: 300px;
+    position: relative;
+    top: 140px;
+    left: 300px;
+}
+
+.pagina_tres_cajatres{
+    width: 300px;
+    position: relative;
+    top: 110px;
+    left: 800px;
+}
+.pagina_tres_input{
+    background-color: white;
+    height: 40px;
+}
+
+.pagina_tres_btn{
+   height: 40px;
+   background-color: black;
+   color: white;
+}
+
+.imagenniño{
+    position: relative;
+    width: 600px;
+    height:400px;
+    top: 130px;
+    left: 100px;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .7s ease-in-out all;
+}
+.imagenniño.visible{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.pagina_tres_cajacinco{
+    width: 200px;
+    position: relative;
+    top: 130px;
+    left: 100px;
+    background-color: black;
+    height: 10px;
+}
+.pagina_tres_cajaseis{
+    width: 200px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.iamgenadulto{
+    position: relative;
+    bottom: 200px;
+    left: 720px;
+    width: 600px;
+    height:400px;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .7s ease-in-out all;
+
+}
+.iamgenadulto.visible{
+    opacity: 1;
+    transform: scale(1);
+}
+.pagina_tres_cajasiete{
+    width: 200px;
+    position: relative;
+    top: -200px;
+    left: 800px;
+    background-color: black;
+    height: 10px;
+}
+
+.estorbo{
+    height: 400px;
+}
+.pagina_tres_cajaocho{
+    width: 200px;
+    bottom: 200px;
+    position: relative;
+    left: 800px;
+}
+
+.maquinauno{
+    opacity: 0;
+    transform: scale(1);
+}
+.maquinauno.visible{
+    opacity: 1;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 17ch;
+
+    animation:typing 2s steps(17),
+    blik.5s infinite step-end alternate ;
+    overflow: hidden;
+}
+
+.maquina{
+    opacity: 0;
+    transform: scale(1);
+}
+.maquina.visible{
+    opacity: 1;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 16ch;
+
+    animation:typing 2s steps(16),
+    blik.5s infinite step-end alternate ;
+    overflow: hidden;
+}
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+    
+}
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sabor { 
+    color: #fff;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+.carousel-item{
+    position: relative;
+    bottom: 300px;
+}
+
+.carousel.carousel-item {
+    width: 400px;
+}
+
+@keyframes typing{
+    from{ width: 0;}
+}
+@keyframes blink{
+    50%{ border-color: transparent;}
+}
